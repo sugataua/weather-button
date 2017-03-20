@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+
+    <form name="settingForm">
+		<label>
+			Units     
+			<input type="radio" name="units" value="metric" checked>Metric
+			<input type="radio" name="units" value="imperial">Imperial<br>			
+		</label>
+		<label>
+		City 
+		<input type="text" id="city_name" value="Kiev">
+		</label>
+		<br>
+		<label>
+		Update period
+		<select id="update_period">
+		  <option value="30">30 min</option>
+		  <option value="60" selected>1 h</option>
+		  <option value="90">1.5 h</option>
+		  <option value="180">2 h</option>
+		</select>
+		</label>
+		
+        <br><br>
+        <button type="submit">Save</button>
+    </form>
+    
+	<script src="options.js"></script>
+	
+
+  </body>
+
+</html>
