@@ -7,11 +7,11 @@ Uses OpenWeatherMap.org API.
 
 ## TODO list
 
--[] Add spelling current weather condition and temperature feature using built-in TTS (text-to-speech) API (will work only on Windows);
--[] Add detailed weather information in popup window on click on toolbar button;
--[] Add weather forecast information;
--[] Add custom setting tab;
--[] Reduce number of requests to server;
+- [ ] Add spelling current weather condition and temperature feature using built-in TTS (text-to-speech) API (will work only on Windows);
+- [ ] Add detailed weather information in popup window on click on toolbar button;
+- [ ] Add weather forecast information;
+- [ ] Add custom setting tab;
+- [ ] Reduce number of requests to server;
 
 
 ## Icons
